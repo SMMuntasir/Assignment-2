@@ -61,6 +61,14 @@ main{
     background-position-x: 600px;
     background-position-y: bottom;
 }
+.nav-home{
+    background-color:rgba(230, 83, 60, 1) ;
+    padding: 5px;
+    border-radius: 25px;
+}
+.nav h1{
+    font-size: 30px;
+}
 .menu{
     display: none;
 }
@@ -69,7 +77,7 @@ main{
     list-style: none;
     gap: 40px;
     height: 0px;
-    padding: 0px 10px;
+    padding: 5px 10px;
     justify-content: center;
     align-items: center;
 }
