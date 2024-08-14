@@ -4,11 +4,15 @@
 
 /* shared style */
 body{
+    margin: 0;
     background-color: black;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+}
+main{
+    margin: 0;
 }
 .main-font{
     font-family: "Inter", sans-serif;
@@ -200,6 +204,108 @@ body{
     /* background-position-x: -800px ; */
     background-size:1000px 700px  ;
 }
+.bmi-calc-crt{
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    /* align-items: center; */
+}
+.bmi-calc{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+table,td,th{
+    /* width: 100%; */
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+td,th{
+    /* color: rgba(255, 255, 255, 0.5); */
+    padding: 10px 15px;
+}
+th{
+    width: 50%;
+    text-align: left;
+
+}
+.tb-Head>th{
+    font-weight:600 ;
+    color: white;
+    font-size:0.8rem ;
+}
+.bmi-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border-radius: px; */
+}
+.calc-bmi-item{
+    border: none;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.159);
+    border-radius: 7px;
+    padding: 10px 0px;
+    padding-left: 15px;
+}
+#activity-fact{
+    grid-column: span 2;
+}
+.calc-bmi{
+    text-align: left;
+}
+.meet-team{
+    margin: 10px 150px;
+    text-align: center;
+
+    /* justify-content: center; */
+}
+ .meet-team-grid{
+    /* margin-top: 20px; */
+    padding-top: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.13);
+    /* margin: 0 auto; */
+    /* width: 1500px; */
+    /* height: ; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0px;
+    /* justify-content: center; */
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+    /* padding-right: -2054px; */
+ }
+ .meet-team-grid img{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+ }
+ .meet-team-grid h5,.meet-team-grid p{
+    position: relative;
+    bottom: 80px;
+    right: -10px;
+    width: 200px;
+    /* height: 30px; */
+ }
+ .meet-team-grid p{
+    bottom: 90px;
+ }
+ .meet-team-grid h5{
+    margin-bottom: 0;
+    font-weight: 900;
+    color: white;
+    font-size: 0.9rem;
+ }
+ .meet-team-div{
+    width: 270px;
+    height: 230px;
+    /* margin-bottom: 20px; */
+ }
 @media screen and (max-width:576px) {
     .title{
         font-size: 2rem;
@@ -255,4 +361,15 @@ body{
         background-size: contain;
         border-radius: px;
     }
+    .bmi-calc-crt{
+        flex-direction: column;
+        padding: 5px 15px;
+        gap: 35px;
+    }
+    .meet-team{
+        margin: 0px 60px;
+    }
+   .meet-team-grid{
+    grid-template-columns: repeat(1,1fr);
+   }
 }
