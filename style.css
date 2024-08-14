@@ -325,6 +325,9 @@ th{
     border: 3px solid rgba(255, 255, 255, 0.319);
     border-radius: 50%;
  }
+ .customer-feed p{
+    line-height: 140%;
+ }
  .customer-feed-item{
     width: 400px;
 
@@ -452,5 +455,14 @@ th{
    .foot-bg{
     margin:30px 15px 0px;
     /* padding:20px 0px ; */
+ }
+ .feed-flex{
+    flex-direction: column;
+ }
+ .customer-feed{
+    margin: 10px 15px;
+ }
+ .customer-feed-item{
+    width: 300px;
  }
 }
