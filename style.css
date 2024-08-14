@@ -267,11 +267,21 @@ th{
 .calc-bmi{
     text-align: left;
 }
+.calc-btn{
+    margin-top: 20px;
+}
+.bmi-calc h3{
+    font-size: 1.5rem;
+    color: white;
+}
 .meet-team{
     margin: 10px 150px;
     text-align: center;
 
     /* justify-content: center; */
+}
+.meet-team-div p{
+    color: rgba(255, 255, 255, 0.48);
 }
  .meet-team-grid{
     /* margin-top: 20px; */
