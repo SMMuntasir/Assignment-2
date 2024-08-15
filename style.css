@@ -471,6 +471,9 @@ th{
         flex-direction: column;
         gap: 25px;
     }
+    .run-extra-btn{
+        width: 100%;
+    }
     .extra-img{
         width: 100%;
         background-position: center;
@@ -503,6 +506,9 @@ th{
  }
  .feed-flex{
     flex-direction: column;
+ }
+ .fitness-foot>p{
+    margin-right: 2.5rem;
  }
  .customer-feed{
     margin: 10px 15px;
