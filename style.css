@@ -308,6 +308,7 @@ th{
     gap:18px;
     justify-content: center;
     text-align: left;
+    margin-top: 2.5rem;
  }
  .meet-team-grid img{
     filter: brightness(0.8);
@@ -327,7 +328,7 @@ th{
     bottom: 90px;
  } */
  .meet-team-grid h5{
-    margin-bottom: 0;
+    margin-bottom: 20px;
     font-weight: 900;
     color: white;
     font-size: 0.9rem;
