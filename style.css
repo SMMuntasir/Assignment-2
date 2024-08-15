@@ -3,6 +3,7 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
 
 /* shared style */
+
 p{
     word-wrap: break-word;
 }
@@ -36,7 +37,8 @@ main{
 .prime-btn{
     background-color: rgba(230, 83, 60, 1);
     border-radius: 25px;
-    padding: 12px 35px;
+    width: 170px;
+    height: 40px;
     border: none;
     color: white;
 }
@@ -50,20 +52,25 @@ main{
     font-size:0.7rem;
     line-height: 17px;
 }
+
 /* shared style close */
 
-.header{
-    height: 670px;
+.head-bg-color{
+    height: 630px;
     margin-left: 150px;
-    background-image: url('images/Images\ 2.png');
+    background-image:url('images/Images\ 2.png');
     background-size: 330px 550px;
     background-repeat: no-repeat;
     background-position-x: 600px;
     background-position-y: bottom;
+    
+}
+.header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(255, 255, 255, 0.15)30%,rgba(177, 177, 177, 0.15) 80%,rgba(119, 119, 119, 0) 100%);
 }
 .nav-home{
     background-color:rgba(230, 83, 60, 1) ;
-    padding: 5px;
+    padding: 9px 20px;
     border-radius: 25px;
 }
 .nav h1{
@@ -73,11 +80,10 @@ main{
     display: none;
 }
 .nav-li{
-    /* margin-left:0; */
     list-style: none;
     gap: 40px;
     height: 0px;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 5px;
     justify-content: center;
     align-items: center;
 }
@@ -88,10 +94,10 @@ main{
 .nav{
     justify-content: space-between;
     align-items: center;
-    margin-right: 150px;
+    margin-right: 9.37rem;
 }
 .frame{
-    border: 1px solid rgba(255, 255, 255, 0.2) ;
+    border: 1px solid rgba(255, 255, 255, 0.1) ;
     border-radius: 25px;
 }
 .fit{
@@ -112,20 +118,22 @@ main{
 }
 .discr{
     margin-right: 600px;
+    line-height: 22px;
 }
 .down-btn{
     border: 1px solid white;
     background-color: black;
 }
- .header-card{
-
+ .header button{
+    margin-top: 20px;
+    margin-right: 20px;
  }
 .f500{
     position: relative;
     left: 820px;
     bottom: 360px;
-    width: 180px;
-    height: 60px;
+    width: 11.25rem;
+    height: 3.75rem;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px 0px;
     padding-right: 5px;
@@ -142,16 +150,16 @@ main{
     justify-content: center;
     width: 170px;
     height: 60px;
-    background-color: rgba(255, 255, 255, 0.54);
+    background-color: rgba(94, 94, 94, 0.452);
     padding: 20px 15px 10px;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
 }
 .span500{
     line-height: 80%;
 }
 .span350{
-    /* margin-top:200px ; */
     font-size: 1.5rem;
     font-weight: 800;
     line-height: 100%;
@@ -162,7 +170,6 @@ main{
 }
 .change-habit{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     margin: 80px 150px;
@@ -172,8 +179,6 @@ main{
     margin-top: 55px;
     display: flex;
     gap: 35px;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 .change-habit-img>img{
     height:150px ;
@@ -191,8 +196,6 @@ main{
     margin-bottom: 5px;
 }
 .run-extra{
-    /* display: flex; */
-
     margin: 80px 150px;
     background-color:rgba(34, 34, 34, 1) ;
     border-radius: 15px;
@@ -204,16 +207,13 @@ main{
 }
 
 .extra-img{
-    border-radius: 15px;
-    width: 500px;
-    height: 250px;
-    
-    /* padding: 35px 45px; */
+    border-radius: 1rem;
+    width: 31.25rem ;
+    height: 15.62rem;
     background-image: url('images/run.jpg');
     background-repeat: no-repeat;
     background-position: -490px -150px;
-    /* background-position-x: -800px ; */
-    background-size:1000px 700px  ;
+    background-size:62.5rem 43.75rem  ;
 }
 .bmi-calc-crt{
     background-color: rgba(34, 34, 34, 1);
@@ -222,20 +222,15 @@ main{
     gap: 150px;
     padding-top: 15px;
     padding-bottom: 20px;
-    /* align-items: center; */
 }
 .bmi-calc{
     text-align: center;
-    /* display: flex;
-    flex-direction: column; */
 }
 table,td,th{
-    /* width: 100%; */
     border-collapse: collapse;
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 td,th{
-    /* color: rgba(255, 255, 255, 0.5); */
     padding: 10px 15px;
 }
 th{
@@ -251,15 +246,14 @@ th{
 .bmi-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* border-radius: px; */
 }
 .calc-bmi-item{
     border: none;
-    margin: 5px;
+    margin: 0.3125rem;
     background-color: rgba(255, 255, 255, 0.159);
     border-radius: 7px;
-    padding: 10px 0px;
-    padding-left: 15px;
+    padding: 0.625rem 0px;
+    padding-left: 1rem;
 }
 #activity-fact{
     grid-column: span 2;
@@ -277,45 +271,37 @@ th{
 .meet-team{
     margin: 10px 150px;
     text-align: center;
-
-    /* justify-content: center; */
 }
 .meet-team-div p{
     color: rgba(255, 255, 255, 0.48);
 }
  .meet-team-grid{
-    /* margin-top: 20px; */
-    padding-top: 15px;
+    padding: 15px 13px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.13);
-    /* margin: 0 auto; */
-    /* width: 1500px; */
-    /* height: ; */
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 0px;
-    /* justify-content: center; */
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: auto auto auto;
+    gap:18px;
+    justify-content: center;
     text-align: left;
-    /* padding-right: -2054px; */
  }
  .meet-team-grid img{
+    filter: brightness(0.8);
     text-align: center;
-    width: 250px;
-    height: 200px;
+    width: 290px;
+    height: 232px;
     border-radius: 10px;
  }
  .meet-team-grid h5,.meet-team-grid p{
     position: relative;
-    bottom: 80px;
+    bottom: 60px;
     right: -10px;
     width: 200px;
-    /* height: 30px; */
+    line-height: 0px;
  }
- .meet-team-grid p{
+ /* .meet-team-grid p{
     bottom: 90px;
- }
+ } */
  .meet-team-grid h5{
     margin-bottom: 0;
     font-weight: 900;
@@ -323,9 +309,7 @@ th{
     font-size: 0.9rem;
  }
  .meet-team-div{
-    width: 270px;
     height: 230px;
-    /* margin-bottom: 20px; */
  }
  .customer-feed{
     text-align: center;
@@ -373,10 +357,7 @@ th{
  }
  .flex-footer{
     display: flex;
-    /* gap: 110px; */
     justify-content: space-evenly;
-
-    /* justify-items: space-between; */
  }
  .get-str p{
     color: rgba(255, 255, 255, 0.5);
@@ -390,7 +371,6 @@ th{
  }
  .fitness-foot{
     width: 400px;
-    /* margin-right: 500px; */
  }
  footer h1{
     margin: 0;
@@ -401,6 +381,9 @@ th{
  .right-foot p{
     margin: 0;
  }
+ footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
 @media screen and (max-width:576px) {
     .title{
         font-size: 2rem;
@@ -408,29 +391,34 @@ th{
     .shape{
         font-size: 4rem;
     }
-    .header{
+    .head-bg-color{
         height: 1000px;
-        margin-left: 10px;
+        margin: 0px 20px;
         background-position-x: center;
+    }
+    .header{
+        width: 100%;
     }
     .menu{
         width: 25px;
         display: block;
-        margin-left: 270px;
+        margin-left: 15.6rem;
+        margin-right: 1.25rem;
     }
     .discr{
-        margin-right: 60px;
+        margin-right: 3.75rem;
     }
     .nav-li{
         display:none;
     }
     .f500{
-        left: 200px;
-        top: 300px;
+
+        left: 11.25rem;
+        bottom: -15rem;
     }
     .v350{
-        left: 20px;
-        top:400px
+        left: 1.25rem;
+        top:350px;
     }
     .change-habit-item{
         flex-direction: column;
@@ -451,28 +439,27 @@ th{
     }
     .extra-img{
         width: 100%;
-        /* height: 100%; */
-        background-position: 0;
-        background-size: contain;
-        border-radius: px;
+        background-position: center;
+        background-size: 25rem 18.75rem;
     }
+    
     .bmi-calc-crt{
         flex-direction: column;
         padding: 5px 15px;
         gap: 35px;
     }
     .meet-team{
-        margin: 0px 60px;
+        margin: 0px 50px;
     }
    .meet-team-grid{
     grid-template-columns: repeat(1,1fr);
+    justify-items: center;
    }
    .flex-footer{
         flex-direction: column;
    }
    .foot-bg{
     margin:30px 15px 0px;
-    /* padding:20px 0px ; */
  }
  .feed-flex{
     flex-direction: column;
