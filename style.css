@@ -12,7 +12,7 @@ body{
     background-color: black;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    /* font-weight: weight; */
     font-style: normal;
 }
 main{
@@ -21,7 +21,7 @@ main{
 .main-font{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    /* font-weight: ; */
     font-style: normal;
   }
 
@@ -37,8 +37,8 @@ main{
 .prime-btn{
     background-color: rgba(230, 83, 60, 1);
     border-radius: 25px;
-    width: 170px;
-    height: 40px;
+    width: 10.62rem;
+    height: 2.5rem;
     border: none;
     color: white;
 }
@@ -140,6 +140,7 @@ main{
     padding-left: 15px;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    /* box-sizing: border-box; */
 }
 .v350{
     position: relative;
@@ -279,9 +280,9 @@ th{
     padding: 0.625rem 0px;
     padding-left: 1rem;
 }
-#activity-fact{
+/* #activity-fact{
     grid-column: span 2;
-}
+} */
 .calc-bmi{
     text-align: left;
 }
@@ -367,6 +368,7 @@ th{
  }
  .feed-flex{
     justify-content: center;
+    align-items: center;
     gap: 100px;
     padding: 0 50px 30px;
  }
@@ -433,11 +435,17 @@ th{
     .header{
         width: 100%;
     }
+    nav{
+        /* justify-content: end; */
+        gap: 50%;
+        /* align-items: end; */
+    }
     .menu{
         width: 25px;
         display: block;
-        margin-left: 15.6rem;
-        margin-right: 1.25rem;
+        /* position: relative; */
+        /* margin-left: 15.6rem;
+        margin-right: 1.25rem; */
     }
     .discr{
         margin-right: 3.75rem;
@@ -446,13 +454,21 @@ th{
         display:none;
     }
     .f500{
-
-        left: 11.25rem;
-        bottom: -15rem;
+        margin: 13.5rem 0 0 40%;
+         /* left: 11.25rem;
+        bottom: -15rem; */
+        left: 0;
+        bottom: 0; 
+        /* right:10000px ; */
+        width: 10rem;
+        height: 3rem;
     }
     .v350{
-        left: 1.25rem;
-        top:350px;
+        margin: 30% 0 0 1.2rem;
+        /* left: 1.25rem;
+        top:350px;*/
+        left: 0;
+        top: 0; 
     }
     .change-habit-item{
         flex-direction: column;
@@ -491,6 +507,16 @@ th{
     .bmi-calc{
         text-align: left;
     }
+    .calc-bmi-item{
+        width:100%;
+        box-sizing: border-box;
+        /* gap: 1rem; */
+        /* font-size: 0.5rem; */
+    }
+    .bmi-grid {
+        row-gap: .0rem;
+        column-gap: 1rem;
+    }
     .meet-team{
         margin: 0px 50px;
     }
@@ -508,12 +534,21 @@ th{
     flex-direction: column;
  }
  .fitness-foot>p{
-    margin-right: 2.5rem;
+    /* width: 80%; */
+    /* box-sizing: border-box; */
+    /* margin-right: 3.5rem; */
  }
+ .fitness-foot{
+    width: 70%;
+ }
+ /* .fit{
+    width: 70%;
+ } */
  .customer-feed{
-    margin: 10px 15px;
+    margin: 0.6rem 0.96rem;
  }
  .customer-feed-item{
-    width: 300px;
+    width: 115%;
+    /* box-sizing: border-box; */
  }
 }
