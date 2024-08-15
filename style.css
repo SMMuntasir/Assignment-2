@@ -322,17 +322,21 @@ th{
     margin-bottom: 50px;
  }
  .customer-feed img{
-    width: 100px;
-    height: 100px;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
     border: 3px solid rgba(255, 255, 255, 0.319);
     border-radius: 50%;
  }
  .customer-feed p{
     line-height: 140%;
+    padding: 0 20px;
  }
  .customer-feed-item{
+    border-radius: 17px;
     width: 400px;
-
+    background-color: rgba(97, 97, 97, 0.292);
  }
  .feed-flex{
     justify-content: center;
